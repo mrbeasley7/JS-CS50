@@ -45,8 +45,8 @@ button.onclick = function() {
 
   //dynamic CSS
   checkBox.onclick = function() {
-    newTask.setAttribute('style', 'text-decoration: line-through');
-    newTask.setAttribute('style', 'opacity: 0');
+    newTask.setAttribute('style', 'text-decoration: line-through;opacity: 0');
+   
 
     //timeouts
     window.setTimeout(function() {
